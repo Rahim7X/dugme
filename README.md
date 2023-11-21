@@ -7,11 +7,8 @@ A discord command on control script to control multiple system from 1 discord se
 
 
 
-<center>
 
-![Logo]([https://i.imgur.com/SvmGqgR.png](https://i.imgur.com/Euc1r2V.png))
-
-</center>
+![Logo](https://i.imgur.com/Euc1r2V.png)
 
 
 ## Installation
